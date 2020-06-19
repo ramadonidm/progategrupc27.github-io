@@ -47,3 +47,44 @@ header ul li a{
     display: block;
     clear: both;
 }
+
+/* menu bisa muncul dan hilang bila di minimize*/
+.mobile-menu {
+    float: right;
+    display: none;
+    padding: 18px;
+}
+
+.mobile-menu:hover {
+   cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+/* css sidebar*/
+.sidebar {
+    position: fixed;
+    top: 90px;
+    bottom: 0;
+    left: -300px;
+    width: 200px;
+    background-color: rgba(16,47,80);
+    opacity: 0.9;
+    transition: 0.3s;
+}
+.sidebar ul li{
+    color: cornsilk;
+    cursor: pointer;
+}
+.sidebar ul li {
+    padding:20px;
+}
+.sidebar ul li:hover {
+    background-color: cyan;
+    transition: 0.6s;
+    color: black;
+}
+#check:checked ~ .sidebar {
+    left: 0;
+}
