@@ -98,14 +98,13 @@ header ul li a{
 /*main*/
 
 .container {
-  width: 1170px;
   padding: 0 auto;
   margin: 0 auto;
 }
 
 .top-wrapper {
-  padding: 110px 0 100px 0;
-  background-image: url(progategrupc27.github-io/background-banner.jpg);
+  padding: 0;
+  background-image: url(background-banner.jpg);
   background-size: cover;
   color: white;
   text-align: center;
