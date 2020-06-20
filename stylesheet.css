@@ -87,6 +87,15 @@ header ul li a{
     left: 0;
 }
 
+/* footer */
+footer {
+    background-color:#95e0f5;
+}
+
+footer p {
+    color: #3739ab;
+}
+
 @media (max-width: 800px) {
     .mobile-menu {
         display: block;
