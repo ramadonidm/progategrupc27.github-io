@@ -96,8 +96,18 @@ header ul li a{
 }
 
 /*main*/
-.top-wrapper img {
+.top-wrapper {
+    background-img: url(background-banner.jpg);
+    padding-top:100px;
+    padding-bottom: 100px;
     background-size: cover;
+}
+.top-wrapper container {
+    width: 1170px;
+    padding-left: 15px;
+    Padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* footer */
